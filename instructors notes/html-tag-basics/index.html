@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <title>on the page title</title>
+    <meta name="author" content="Don Welch">
+
+
+    <meta charset="utf-8">
+    <!-- this is the structure of a comment block in html files
+         everything in this structure is NOT consider part of any
+         connect of your web page
+
+         Most tags in html are done in pairs; opening and closeing tags
+         The opening tag is indicates the tag instruction to the browse. 
+         The closing tag termnates the tag block. the closing tag has
+         the same name as the opening tag with that addition of a slash (/)
+         before the tag name.
+
+         On the html tag has a parameter indicating the language of the text.
+    -->
+    <!-- this is a place where you can code supports for the browser
+           to use in interpreting the web file. The items within this
+           section are NOT content-->
+
+    <!-- univerisal type set which covers almost all the characers
+          and symbols in the world
+                 https://www.w3schools.com/tags/tag-meta.asp
+        -->
+</head>
+
+<body>
+    <!--Header tags
+            h1 thru h6
+            title text tags
+            h1 is the largest and h6 is the smallest
+            all of these tag have some built in formatting-->
+    <h1>Basic HTML tags</h1>
+    <h3>Paragraph tag</h3>
+    <!--this is the coding block for your context on your web page-->
+    <p>The paragraph tag is a block tag. A block tag begins a new line
+        in your displayed web page on the browser. The browser does NOT
+        display your context in the physical style of how you have entered
+        your code in your html file.
+    </p>
+    <p>This is my second paragraph on the displayed browser page. It will
+        start a new line.
+    </p>
+    <!-- if you wish to use a component of a reversed tag (or the whole tag) you
+             would be in trouble just using the tag
+            You can use special character string to represent components of a tag such
+               as the < (&lt)  and the > (&gt) symbol-->
+    <h3>List tags: &lt;ol&gt; and &lt;ul&gt;</h3>
+    <!--create an ordered list ol tag
+            create an unordered list ul tag
+            items in the list are li tag-->
+    <ol>
+        <li>Add extension Live Server for Go Live</li>
+        <li>Close and reopen VS-code</li>
+        <li>look at the bottom right corner on the blue status line for Go Live</li>
+        <li>This will run your page from Vs-Code</li>
+        <li>Alter your page and save the file (ctrl + s), your browser will automatically
+            be updated
+        </li>
+    </ol>
+
+    <ul>
+        <li>this is an unordered list</li>
+        <li>default display is a bulleted list</li>
+        <li>we will see later how to remove these bullets</li>
+    </ul>
+
+    <!--This is an anchor tag often referred to as the link tag
+            One should NOT used the term link tag because the is actually
+                a <Link> tag used in the <head> section
+            this tag can take you to a different location whether it
+                be a different website, different page in the current
+                web site, or a different position on the current page
+            
+            parameters href points to the desired location
+                       target indicates the browser page display option
+                               default is same display page, _blank will
+                               use a new window tab-->
+    <h3>Anchor tag</h3>
+    <a href="https://www.nait.ca" target="_blank">go to Nait</a>
+
+    <!--another way to display an image is using the figure tag along 
+            with the figcaption tag
+            the figure tag will indent your image while the figcaption
+             tag will allow you to place a text line with your image
+            the figcaption tag is optionally-->
+    <figure>
+        <img src="img/photoshop.jpg" alt="photoshop symbol" title="This is a tool-tip">
+        <figcaption>Note where this caption text for the image appears.</figcaption>
+    </figure>
+
+    <!--using an image anchor for your page-->
+    <a href="https://dwelch.dmitstudent.ca/html-tag-basics" target=_blank>
+        <img src="img/photoshop.jpg" alt="photoshop symbol" title="go to my web site sample">
+    </a>
+</body>
+
+</html>
