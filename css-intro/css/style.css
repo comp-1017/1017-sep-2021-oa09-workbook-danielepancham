@@ -1,0 +1,56 @@
+/* tag selector */
+h1{
+    color:red;
+}
+p{
+    background-color: aquamarine;
+    font-family: Calibri;
+}
+/* multiple tag selector (tag = element)*/
+h2, h3, h4, h5, h6{
+    color: green;
+    background-color: silver;
+    border: 3px solid black;
+}
+
+/* class selector
+   preceeded by a period (.)
+   can be used by any tag where the class is 
+   colors can be specified using #rgb (red,green,blue)
+   values of red,green,blue range from 0-255
+   values are code in hexadecimal 00-ff
+   */
+.menu-items
+{
+    border-left: 5px solid firebrick;
+    font-family: courier, sans-serif;
+    background-color: #f4f4f4;
+    padding:24px;
+    /* move to the right */
+    margin-left: 24px;
+    /* specify the size (width) of the area desired */
+    width: 600px;
+}
+
+section{
+    font-family: Arial;
+    margin: 48px;
+    width: 800px;
+    background-color: yellow;
+}
+
+/* Child combination 
+    parent -> child element set
+    aside -> p
+*/
+aside > p{
+    background-color: violet;
+}
+
+/* descendant combination 
+  a chain of elements to be matched
+*/
+body aside p{
+    background-color: royalblue;
+    
+}
