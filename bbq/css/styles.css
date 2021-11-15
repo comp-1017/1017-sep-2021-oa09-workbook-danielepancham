@@ -20,7 +20,10 @@ h2 {
 main p {
     color: #333333;
 }
-section {
+.box-model{
+    margin: 23px;
+    border: green;
+
     font-family: Arial;
     width: 800px;
     margin: 48px;
